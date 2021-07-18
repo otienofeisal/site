@@ -1,0 +1,182 @@
+body header {
+   /* background-color: #87adfe;*/
+   background:linear-gradient(45deg, #87adfe, #ff77cd);
+}
+
+body header h1{
+     text-align: center;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic ;
+    font-size: 11mm;
+    text-transform: lowercase;
+    color:black ;
+    
+}
+
+nav {
+    /*background-color: #f5afdb;*/
+    background:linear-gradient(45deg, #87adfe, #ff77cd);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+nav a{
+    padding: 7px 8px; 
+   color: black;
+   text-align: center;
+   text-decoration: none;
+}
+nav a:hover{
+    background:linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius:6px;
+    color: white;
+    text-transform: lowercase;
+    padding: 14px 20px;
+}
+
+nav .sign{
+    float:right;
+    text-decoration: none;
+    background-color: #87adfe;
+    border-color:#f5afdb ;
+   
+}
+
+.logo{
+	width:60px;
+	cursor:pointer;	
+    margin: 2px;
+    border-radius: 6px;
+    
+}
+.cart{
+	width:30px;
+	cursor:pointer;
+    float: right;
+    padding-top: 30px;
+    margin: 2px;	
+   
+}
+ #sura{
+   /* background-image: url("sura.jpg");*/
+
+    text-align: center;
+ 
+}
+#sura h1{
+    
+    font-size:60px;
+	font-weight:100;
+    font-style: italic;
+	margin-top:24px;
+	margin-bottom:15px;
+	color:black;
+}
+#sura img{
+    opacity: 0.2;
+}
+
+section{
+    align-content: center;
+}
+
+.content h1{
+	font-size:60px;
+	font-weight:100;
+	margin-top:24px;
+	margin-bottom:15px;
+	color:black;
+}
+.content p{
+	font-size:20px;
+	/*color:green;*/
+	color: beige;
+}
+/*.content {
+	margin-left:10%;
+	margin-top:10%;
+}*/
+.content .btn{
+	display:inline-block;
+	background:linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius:6px;
+	padding:10px 20px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:white;
+	box shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+#sura{
+    box-sizing: border-box;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
